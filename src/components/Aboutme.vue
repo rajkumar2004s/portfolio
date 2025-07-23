@@ -1,15 +1,15 @@
 <template>
   <div class="bg-[#c0bbb5] h-[90vh] flex items-center justify-center px-4 gap-12">
     <div class="max-w-xl font-poppins">
-      <h1 class="text-5xl font-extrabold text-[#1c1c1c] mb-10 animate-fade-up about">About Me</h1>
+      <h1 class="text-5xl font-extrabold text-[#1c1c1c] animate-fade-up about">About Me</h1>
 
       <p
         class="text-lg text-[#2c2c2c] leading-8 tracking-wide mt-4 font-inter animate-fade-up delay-300 dsp"
       >
-        I'm Rajkumar, a dedicated Frontend Developer with a strong foundation in Vue.js, JavaScript,
-        HTML, and CSS. I love building interactive web interfaces and continuously improving my
-        skills through hands-on projects and learning. I'm curious, creative, and committed to
-        crafting user-friendly digital experiences.
+        I'm Rajkumar, a dedicated Frontend Developer with a foundation in Vue.js, JavaScript, HTML,
+        and CSS. I love building interactive web interfaces and continuously improving my skills
+        through hands-on projects and learning. I'm curious, creative, and committed to crafting
+        user-friendly digital experiences.
       </p>
     </div>
 

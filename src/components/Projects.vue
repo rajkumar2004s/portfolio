@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#111112] h-[90vh] font-poppins">
+  <div class="bg-[#111112] h-[92vh] font-poppins">
     <h1
       class="text-5xl text-center font-poppins leading-[1.5] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#00F260] to-[#0575E6] transition-all duration-500 hover:from-pink-500 hover:to-yellow-500"
     >
@@ -7,19 +7,26 @@
     </h1>
 
     <div class="cards flex flex-row justify-center items-center gap-8">
-      <div class="flex flex-col justify-center items-center gap-2 hack">
+      <div
+        class="c1 flex flex-col justify-center items-center gap-2 hack opacity-0 translate-y-6 animate-fade-up animation-delay-300 animation-fill-forwards"
+      >
         <img
           :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752637629/download_h8y7hk.png'"
           class="w-[15vw] h-[23vh]"
         />
-        <h1 class="text-white text-xl font-poppins font-bold h1">Hack Hazards</h1>
-        <p class="text-white text-center dsp">
+        <h1
+          class="text-2xl text-center font-bold bg-gradient-to-r from-pink-500 to-yellow-500 text-transparent bg-clip-text transition-all duration-500"
+        >
+          Hack Hazards
+        </h1>
+        <p
+          class="text-center dsp text-2xl font-bold bg-gradient-to-r from-[#00F260] to-[#0575E6] text-transparent bg-clip-text"
+        >
           A responsive website clone of Hack Hazards built using HTML, Tailwind CSS, and JavaScript,
           focused on clean UI and modern design.
         </p>
         <p class="text-white">
-          <span class="font-bold text-xl text-white tech">Techstack: </span>Html, Css, javascript,
-          Tailwind Css.
+          <span class="font-bold text-xl x">Techstack: </span>Html, Css, javascript, Tailwind Css.
         </p>
         <button
           class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
@@ -39,38 +46,53 @@
           ></span>
         </button>
       </div>
-      <div class="flex flex-col justify-center items-center gap-2">
+
+      <div
+        class="c1 flex flex-col justify-center items-center gap-2 opacity-0 translate-y-6 animate-fade-up animation-delay-500 animation-fill-forwards"
+      >
         <img
           :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752741972/Screenshot_2025-07-17_141520_tuoywi.png'"
           class="w-[15vw] h-[23vh]"
         />
-        <h1 class="text-white text-xl font-poppins font-bold h1">App Store</h1>
-        <p class="text-white text-center dsp">
+        <h1
+          class="text-2xl text-center font-bold bg-gradient-to-r from-pink-500 to-yellow-500 text-transparent bg-clip-text transition-all duration-500"
+        >
+          App Store
+        </h1>
+        <p
+          class="text-center dsp text-2xl font-bold bg-gradient-to-r from-[#00F260] to-[#0575E6] text-transparent bg-clip-text"
+        >
           A mini app store built with React featuring multiple small apps and a search bar for easy
           navigation.
         </p>
-        <p class="text-white">
-          <span class="font-bold text-xl text-white tech">Techstack: </span>React js
-        </p>
+        <p class="text-white"><span class="font-bold text-xl x">Techstack: </span>React js</p>
       </div>
-      <div class="flex flex-col justify-center items-center gap-2 hack">
+
+      <div
+        class="c1 flex flex-col justify-center items-center gap-2 hack opacity-0 translate-y-6 animate-fade-up animation-delay-700 animation-fill-forwards"
+      >
         <img
           :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752744694/59861e55-5c8e-4385-abba-b1261ebda472_kgkapr.png'"
           class="w-[15vw] h-[23vh]"
         />
-        <h1 class="text-white text-xl font-poppins font-bold h1">Movie Matrix</h1>
-        <p class="text-white text-center dsp">
+        <h1
+          class="text-2xl text-center font-bold bg-gradient-to-r from-pink-500 to-yellow-500 text-transparent bg-clip-text transition-all duration-500"
+        >
+          Movie Matrix
+        </h1>
+        <p
+          class="text-center dsp text-2xl font-bold bg-gradient-to-r from-[#00F260] to-[#0575E6] text-transparent bg-clip-text"
+        >
           Movie discovery site with recommendations, community, and rich film info..
         </p>
         <p class="text-white">
-          <span class="font-bold text-xl text-white tech">Techstack: </span>Html, Css, javascript,
-          Tailwind Css.
+          <span class="font-bold text-xl x">Techstack: </span>Html, Css, javascript, Tailwind Css.
         </p>
         <button
           class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
         >
           <a
-            href="https://hackhazards.niat.tech"
+            href="https://moviematrixmain.niat.tech"
             target="_blank"
             class="relative z-10 font-semibold"
           >
@@ -84,34 +106,71 @@
           ></span>
         </button>
       </div>
-      <div class="flex flex-col justify-center items-center gap-2">
+
+      <div
+        class="c1 flex flex-col justify-center items-center gap-2 opacity-0 translate-y-6 animate-fade-up animation-delay-900 animation-fill-forwards"
+      >
         <img
           :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752741735/Task-Management-Advantages-scaled_ibvig6.jpg'"
           class="w-[15vw] h-[23vh]"
         />
-        <h1 class="text-white text-xl font-poppins font-bold h1">Task Management</h1>
-        <p class="text-white text-center dsp">
+        <h2
+          class="text-2xl text-center font-bold bg-gradient-to-r from-pink-500 to-yellow-500 text-transparent bg-clip-text transition-all duration-500"
+        >
+          Task Management
+        </h2>
+        <p
+          class="text-center dsp text-2xl font-bold bg-gradient-to-r from-[#00F260] to-[#0575E6] text-transparent bg-clip-text"
+        >
           Task management application built with Vue.js featuring seamless task creation, tracking,
           and intuitive user experience.
         </p>
         <p class="text-white">
-          <span class="font-bold text-xl text-white tech">Techstack: </span>Vue js, vue router.
+          <span class="font-bold text-xl x">Techstack: </span>Vue js, vue router.
         </p>
       </div>
     </div>
   </div>
 </template>
 
-<script setup></script>
-
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out;
+}
+
+.animation-delay-300 {
+  animation-delay: 0.3s;
+}
+.animation-delay-500 {
+  animation-delay: 0.5s;
+}
+.animation-delay-700 {
+  animation-delay: 0.7s;
+}
+.animation-delay-900 {
+  animation-delay: 0.9s;
+}
+
+.animation-fill-forwards {
+  animation-fill-mode: forwards;
+}
+
 button {
   padding: 5px;
   width: 120px;
-}
-.h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .project {
   padding-top: 15px;
@@ -122,7 +181,6 @@ button {
 .dsp {
   width: 20vw;
   font-size: 14px;
-  font-family:;
 }
 .hack {
   position: relative;
@@ -132,8 +190,12 @@ button {
 img {
   border-radius: 10px;
 }
-.tech {
+.x {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
+  margin: 10px;
+}
+.c1 {
+  padding: 10px;
 }
 </style>

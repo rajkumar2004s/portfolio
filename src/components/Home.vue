@@ -3,6 +3,7 @@
     <img
       src="https://res.cloudinary.com/dwdekki8t/image/upload/v1752602367/IMG_20250612_114213_ga01fs.jpg"
       class="h-full object-cover"
+      alt="Profile"
     />
     <div class="flex flex-col gap-4 justify-center items-center w-full font-poppins font-bold">
       <h1 class="text-white text-center text-8xl fade-up">Hi, I'm</h1>

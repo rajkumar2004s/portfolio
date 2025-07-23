@@ -1,74 +1,96 @@
+<script setup>
+import { useSkillsStore } from '@/stores/skills'
+
+const store = useSkillsStore()
+</script>
+
 <template>
-  <div>
+  <div class="bg-[#111112] h-[90vh] text-white">
     <h1
       class="text-5xl text-center font-poppins leading-[1.5] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#00F260] to-[#0575E6] transition-all duration-500 hover:from-pink-500 hover:to-yellow-500"
     >
       Skills
     </h1>
-    <div class="flex">
-      <img
-        :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752610587/f13289bf0c893853fc6311b918351221_mww0qj.jpg'"
-        class="h-[68vh] w-[26vw]"
-      />
-      <div class="grid grid-cols-2 grid gap-2 card">
-        <div>
-          <h1 class="font-bold text-2xl text-[#0d152e] font-sans hover:text-[#5925b3]">
-            Technical Skills:
-          </h1>
-          <u1 class="text-[18px] font-sans gap-4 font-semibold text-[#17191f] u2">
-            <li>Html</li>
-            <li>Css</li>
-            <li>JavaScript (Basics to Intermediate)</li>
-            <li>Python</li>
-            <li>Vue.js 3</li>
-          </u1>
-        </div>
-        <div class="c1">
-          <h1 class="font-bold text-2xl text-[#0d152e] font-sans hover:text-[#5925b3]">
-            Tools & Frameworks:
-          </h1>
-          <u1 class="text-[18px] font-sans gap-4 text-[#17191f] u2 font-semibold">
-            <li>Vs code</li>
-            <li>Chrome Dev Tools</li>
-            <li>Vite (for Vue project setup)</li>
-          </u1>
-        </div>
 
-        <div>
-          <h1 class="font-bold text-2xl text-[#0d152e] font-sans hover:text-[#5925b3]">
+    <div class="flex flex-row justify-center items-center gap-10">
+      <img
+        class="h-[65vh] w-auto"
+        :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752763655/5dc8637e74fd17dea829ea06541c2b72-removebg-preview_gjsoph.png'"
+      />
+
+      <div class="flex flex-row justify-center items-start gap-24 mt-10">
+        <ul
+          class="opacity-0 translate-y-4 animate-fade-up animation-delay-300 animation-fill-forwards"
+        >
+          <h2
+            class="text-3xl text-center font-poppins leading-[1.5] font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500 transition-all duration-500 hover:from-[#00F260] hover:to-[#0575E6]"
+          >
+            Technical Skills:
+          </h2>
+          <li v-for="(skill, index) in store.skills.tech" :key="index">{{ skill }}</li>
+        </ul>
+
+        <ul
+          class="opacity-0 translate-y-4 animate-fade-up animation-delay-500 animation-fill-forwards"
+        >
+          <h2
+            class="text-3xl text-center font-poppins leading-[1.5] font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500 transition-all duration-500 hover:from-[#00F260] hover:to-[#0575E6]"
+          >
+            Developer Tools:
+          </h2>
+          <li v-for="(tool, index) in store.skills.tools" :key="index">{{ tool }}</li>
+        </ul>
+
+        <ul
+          class="opacity-0 translate-y-4 animate-fade-up animation-delay-700 animation-fill-forwards"
+        >
+          <h2
+            class="text-3xl text-center font-poppins leading-[1.5] font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500 transition-all duration-500 hover:from-[#00F260] hover:to-[#0575E6]"
+          >
             Languages:
-          </h1>
-          <ul class="text-[18px] font-sans gap-4 text-[#17191f] font-semibold u1">
-            <li>Telugu</li>
-            <li>English</li>
-          </ul>
-        </div>
+          </h2>
+          <li v-for="(language, index) in store.skills.lang" :key="index">{{ language }}</li>
+        </ul>
       </div>
     </div>
   </div>
 </template>
 
-<script setup></script>
-
 <style scoped>
-.u2 {
-  padding: 2px;
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.card {
-  margin-left: 70px;
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out;
 }
-.u1 {
-  padding-top: 15px;
+
+.animation-delay-300 {
+  animation-delay: 0.3s;
 }
-.c1 {
-  margin-left: 120px;
+
+.animation-delay-500 {
+  animation-delay: 0.5s;
 }
-.skills {
-  padding: 10px;
-  margin: 40px;
-  margin-left: 50px;
+
+.animation-delay-700 {
+  animation-delay: 0.7s;
 }
+
+.animation-fill-forwards {
+  animation-fill-mode: forwards;
+}
+
 li {
-  list-style: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  font-size: 18px;
 }
 </style>

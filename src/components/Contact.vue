@@ -3,22 +3,30 @@
     <div class="flex gap-4">
       <img
         :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752612901/Screenshot_2025-07-16_022421_wqxd3t.png'"
-        class="h-[90vh] img"
+        class="h-[90vh] img fade-up delay-100"
       />
+
       <div class="flex flex-col justify-center">
-        <h1 class="text-white text-6xl fade-up font-poppins font-bold h1">Reach Out</h1>
+        <h1 class="text-white text-6xl font-poppins font-bold h1 fade-up delay-200">Reach Out</h1>
+
         <p
-          class="text-md text-white leading-8 tracking-wide mt-4 font-inter fade-up delay animate-fade-up delay-300 d1 w-160"
+          class="text-md text-white leading-8 tracking-wide mt-4 font-inter fade-up delay-300 d1 w-160"
         >
           Feel free to reach out to me for any collaboration, internship opportunities, or project
           discussions. I’m always open to meaningful conversations and new connections!
         </p>
-        <h1 class="text-white text-xl fade-up delay font-poppins font-bold">Rajkumar</h1>
-        <p class="text-white text-sm email">
+
+        <h1 class="text-white text-xl font-poppins font-bold fade-up delay-400">Rajkumar</h1>
+
+        <p class="text-white text-sm email fade-up delay-500">
           <i class="fa-solid fa-envelope mail"></i>bhootlarajkumar@gmailcom
         </p>
-        <p class="text-white text-sm num"><i class="fa-solid fa-phone i"></i>9347286282</p>
-        <div>
+
+        <p class="text-white text-sm num fade-up delay-600">
+          <i class="fa-solid fa-phone i"></i>9347286282
+        </p>
+
+        <div class="fade-up delay-700">
           <h1 class="text-white">Connect with me</h1>
           <div class="text-white icons">
             <i class="fa-brands fa-linkedin i"></i>
@@ -33,6 +41,7 @@
 </template>
 
 <script setup></script>
+
 <style scoped>
 .num {
   margin-left: 7px;
@@ -56,7 +65,6 @@ h1 {
   margin-left: 15px;
 }
 .d1 {
-  /* padding: 10px; */
   margin: 20px;
 }
 .img {
@@ -76,10 +84,29 @@ h1 {
 }
 
 .fade-up {
+  opacity: 0;
   animation: fadeUp 1s ease-out forwards;
 }
 
-.delay {
+.delay-100 {
+  animation-delay: 0.1s;
+}
+.delay-200 {
+  animation-delay: 0.2s;
+}
+.delay-300 {
   animation-delay: 0.3s;
+}
+.delay-400 {
+  animation-delay: 0.4s;
+}
+.delay-500 {
+  animation-delay: 0.5s;
+}
+.delay-600 {
+  animation-delay: 0.6s;
+}
+.delay-700 {
+  animation-delay: 0.7s;
 }
 </style>
