@@ -72,13 +72,13 @@
         class="c1 flex flex-col justify-center items-center gap-2 hack opacity-0 translate-y-6 animate-fade-up animation-delay-700 animation-fill-forwards"
       >
         <img
-          :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752744694/59861e55-5c8e-4385-abba-b1261ebda472_kgkapr.png'"
-          class="w-[15vw] h-[23vh]"
+          :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1753697191/4c4d2d25-321f-4867-a2b7-1bbcd9834125.png'"
+          class="w-[15vw] h-[23vh] card"
         />
         <h1
           class="text-2xl text-center font-bold bg-gradient-to-r from-pink-500 to-yellow-500 text-transparent bg-clip-text transition-all duration-500"
         >
-          Movie Matrix
+          Zenflix
         </h1>
         <p
           class="text-center dsp text-2xl font-bold bg-gradient-to-r from-[#00F260] to-[#0575E6] text-transparent bg-clip-text"
@@ -86,13 +86,14 @@
           Movie discovery site with recommendations, community, and rich film info..
         </p>
         <p class="text-white">
-          <span class="font-bold text-xl x">Techstack: </span>Html, Css, javascript, Tailwind Css.
+          <span class="font-bold text-xl x">Techstack: </span>vue.js, vue router, pinia, Tailwind
+          Css.
         </p>
         <button
           class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
         >
           <a
-            href="https://moviematrixmain.niat.tech"
+            href="https://zenflix-ten.vercel.app/"
             target="_blank"
             class="relative z-10 font-semibold"
           >
@@ -167,7 +168,10 @@
 .animation-fill-forwards {
   animation-fill-mode: forwards;
 }
-
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid white;
+}
 button {
   padding: 5px;
   width: 120px;
