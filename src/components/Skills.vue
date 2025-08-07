@@ -13,11 +13,6 @@ const store = useSkillsStore()
     </h1>
 
     <div class="flex flex-row justify-center items-center gap-10">
-      <img
-        class="h-[65vh] w-auto"
-        :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752763655/5dc8637e74fd17dea829ea06541c2b72-removebg-preview_gjsoph.png'"
-      />
-
       <div class="flex flex-row justify-center items-start gap-24 mt-10">
         <ul
           class="opacity-0 translate-y-4 animate-fade-up animation-delay-300 animation-fill-forwards"
@@ -67,7 +62,9 @@ const store = useSkillsStore()
     transform: translateY(0);
   }
 }
-
+h1 {
+  padding: 50px;
+}
 .animate-fade-up {
   animation: fade-up 0.8s ease-out;
 }

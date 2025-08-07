@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#111112] h-[92vh] font-poppins">
     <h1
-      class="text-5xl text-center font-poppins leading-[1.5] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#00F260] to-[#0575E6] transition-all duration-500 hover:from-pink-500 hover:to-yellow-500"
+      class="p-12 text-5xl text-center font-poppins leading-[1.5] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#00F260] to-[#0575E6] transition-all duration-500 hover:from-pink-500 hover:to-yellow-500"
     >
       Projects
     </h1>
@@ -19,20 +19,16 @@
         >
           Hack Hazards
         </h1>
-        <p
-          class="text-center dsp text-2xl font-bold bg-gradient-to-r from-[#00F260] to-[#0575E6] text-transparent bg-clip-text"
-        >
-          A responsive website clone of Hack Hazards built using HTML, Tailwind CSS, and JavaScript,
-          focused on clean UI and modern design.
-        </p>
+
         <p class="text-white">
-          <span class="font-bold text-xl x">Techstack: </span>Html, Css, javascript, Tailwind Css.
+          <span class="font-bold text-xl x">Techstack: </span>Html, Css, javascript, Tailwind Css,
+          Vue js.
         </p>
         <button
           class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
         >
           <a
-            href="https://hackhazards.niat.tech"
+            href="https://hackhazards-using-vue.vercel.app/"
             target="_blank"
             class="relative z-10 font-semibold"
           >
@@ -59,12 +55,7 @@
         >
           App Store
         </h1>
-        <p
-          class="text-center dsp text-2xl font-bold bg-gradient-to-r from-[#00F260] to-[#0575E6] text-transparent bg-clip-text"
-        >
-          A mini app store built with React featuring multiple small apps and a search bar for easy
-          navigation.
-        </p>
+
         <p class="text-white"><span class="font-bold text-xl x">Techstack: </span>React js</p>
       </div>
 
@@ -80,11 +71,7 @@
         >
           Zenflix
         </h1>
-        <p
-          class="text-center dsp text-2xl font-bold bg-gradient-to-r from-[#00F260] to-[#0575E6] text-transparent bg-clip-text"
-        >
-          Movie discovery site with recommendations, community, and rich film info..
-        </p>
+
         <p class="text-white">
           <span class="font-bold text-xl x">Techstack: </span>vue.js, vue router, pinia, Tailwind
           Css.
@@ -93,7 +80,7 @@
           class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
         >
           <a
-            href="https://zenflix-ten.vercel.app/"
+            href="https://zenflix-two.vercel.app/"
             target="_blank"
             class="relative z-10 font-semibold"
           >
@@ -120,15 +107,27 @@
         >
           Task Management
         </h2>
-        <p
-          class="text-center dsp text-2xl font-bold bg-gradient-to-r from-[#00F260] to-[#0575E6] text-transparent bg-clip-text"
-        >
-          Task management application built with Vue.js featuring seamless task creation, tracking,
-          and intuitive user experience.
-        </p>
+
         <p class="text-white">
           <span class="font-bold text-xl x">Techstack: </span>Vue js, vue router.
         </p>
+        <button
+          class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
+        >
+          <a
+            href="https://task-manager-lilac-omega.vercel.app/"
+            target="_blank"
+            class="relative z-10 font-semibold"
+          >
+            Check here
+          </a>
+          <span
+            class="absolute inset-0 bg-white opacity-10 group-hover:opacity-20 transition-opacity duration-300 ease-in-out"
+          ></span>
+          <span
+            class="absolute left-0 top-0 w-full h-full transform scale-0 group-hover:scale-100 bg-white opacity-10 transition-transform duration-500 ease-in-out"
+          ></span>
+        </button>
       </div>
     </div>
   </div>
