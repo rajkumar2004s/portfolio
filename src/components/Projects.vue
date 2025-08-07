@@ -28,7 +28,7 @@
           class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
         >
           <a
-            href="https://hackhazards-using-vue.vercel.app/"
+            href="https://hackazards.vercel.app/"
             target="_blank"
             class="relative z-10 font-semibold"
           >
