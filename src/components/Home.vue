@@ -11,7 +11,7 @@
       <p
         class="text-[#00ffcc] text-xl mt-[40px] tracking-wide uppercase font-semibold fade-up delay p1"
       >
-        Frontend Developer
+        A Frontend Developer
       </p>
     </div>
   </div>
