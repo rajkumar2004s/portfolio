@@ -6,10 +6,10 @@
       <p
         class="text-lg text-[#2c2c2c] leading-8 tracking-wide mt-4 font-inter animate-fade-up delay-300 dsp"
       >
-        I'm Rajkumar, a dedicated Frontend Developer with a foundation in Vue.js, JavaScript, HTML,
-        and CSS. I love building interactive web interfaces and continuously improving my skills
-        through hands-on projects and learning. I'm curious, creative, and committed to crafting
-        user-friendly digital experiences.
+        I'm Rajkumar, a dedicated Frontend Developer with a foundation in Html, Css, Javascript,
+        Typescript, Python, Vue js and Nuxt js. I love building interactive web interfaces and
+        continuously improving my skills through hands-on projects and learning. I'm curious,
+        creative, and committed to crafting user-friendly digital experiences.
       </p>
     </div>
 
@@ -46,3 +46,6 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 </style>
+<script setup lang="js">
+//
+</script>
