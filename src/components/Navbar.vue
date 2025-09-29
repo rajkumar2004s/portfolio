@@ -4,15 +4,11 @@
       <h1 class="text-xl font-bold ml-8 animated-heading">Portfolio</h1>
 
       <div class="flex gap-6 font-inter">
-        <router-link to="/" class="hover:underline hover:text-[#00ffcc]">Home</router-link>
-        <router-link to="/about" class="hover:underline hover:text-[#00ffcc]">About</router-link>
-        <router-link to="/skills" class="hover:underline hover:text-[#00ffcc]">Skills</router-link>
-        <router-link to="/projects" class="hover:underline hover:text-[#00ffcc]"
-          >Projects</router-link
-        >
-        <router-link to="/contact" class="hover:underline hover:text-[#00ffcc]"
-          >Contact</router-link
-        >
+        <router-link to="/" exact-active-class="active-link">Home</router-link>
+        <router-link to="/about" exact-active-class="active-link">About</router-link>
+        <router-link to="/skills" exact-active-class="active-link">Skills</router-link>
+        <router-link to="/projects" exact-active-class="active-link">Projects</router-link>
+        <router-link to="/contact" exact-active-class="active-link">Contact</router-link>
       </div>
     </nav>
 
@@ -21,6 +17,7 @@
     </main>
   </div>
 </template>
+
 <style scoped>
 .animated-heading {
   transition: all 0.4s ease-in-out;
@@ -30,7 +27,7 @@
 }
 
 .animated-heading:hover {
-  color: #38bdf8; /* Tailwind sky-400 */
+  color: #38bdf8;
   transform: scale(1.1);
   letter-spacing: 2px;
 }
@@ -48,5 +45,22 @@
 
 .animated-heading:hover::after {
   width: 100%;
+}
+
+/* Active route underline */
+.active-link {
+  position: relative;
+  color: #00ffcc;
+  font-weight: 600;
+}
+
+.active-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background: #00ffcc;
 }
 </style>

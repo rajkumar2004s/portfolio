@@ -28,11 +28,18 @@
 
         <div class="fade-up delay-700">
           <h1 class="text-white">Connect with me</h1>
-          <div class="text-white icons">
-            <i class="fa-brands fa-linkedin i"></i>
-            <i class="fa-brands fa-instagram i"></i>
-            <i class="fa-brands fa-twitter i"></i>
-            <i class="fa-brands fa-github i"></i>
+          <div class="text-white icons flex gap-4">
+            <a href="https://www.linkedin.com/in/raju03" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-linkedin i"></i>
+            </a>
+
+            <a href="https://www.instagram.com/_raju.uu/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram i"></i>
+            </a>
+
+            <a href="https://github.com/rajkumar2004s" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github i"></i>
+            </a>
           </div>
         </div>
       </div>

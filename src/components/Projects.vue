@@ -21,8 +21,8 @@
         </h1>
 
         <p class="text-white">
-          <span class="font-bold text-xl x">Techstack: </span>Html, Css, javascript, Tailwind Css,
-          Vue js.
+          <span class="font-bold text-xl x">Techstack: </span>
+          Vue js, vue router, pinia, Tailwind Css.
         </p>
         <button
           class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
@@ -47,24 +47,8 @@
         class="c1 flex flex-col justify-center items-center gap-2 opacity-0 translate-y-6 animate-fade-up animation-delay-500 animation-fill-forwards"
       >
         <img
-          :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752741972/Screenshot_2025-07-17_141520_tuoywi.png'"
-          class="w-[15vw] h-[23vh]"
-        />
-        <h1
-          class="text-2xl text-center font-bold bg-gradient-to-r from-pink-500 to-yellow-500 text-transparent bg-clip-text transition-all duration-500"
-        >
-          App Store
-        </h1>
-
-        <p class="text-white"><span class="font-bold text-xl x">Techstack: </span>React js</p>
-      </div>
-
-      <div
-        class="c1 flex flex-col justify-center items-center gap-2 hack opacity-0 translate-y-6 animate-fade-up animation-delay-700 animation-fill-forwards"
-      >
-        <img
           :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1753697191/4c4d2d25-321f-4867-a2b7-1bbcd9834125.png'"
-          class="w-[15vw] h-[23vh] card"
+          class="w-[15vw] h-[23vh] border border-white card"
         />
         <h1
           class="text-2xl text-center font-bold bg-gradient-to-r from-pink-500 to-yellow-500 text-transparent bg-clip-text transition-all duration-500"
@@ -73,8 +57,7 @@
         </h1>
 
         <p class="text-white">
-          <span class="font-bold text-xl x">Techstack: </span>vue.js, vue router, pinia, Tailwind
-          Css.
+          <span class="font-bold text-xl x">Techstack: vue.js, vue router</span>
         </p>
         <button
           class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
@@ -96,30 +79,66 @@
       </div>
 
       <div
-        class="c1 flex flex-col justify-center items-center gap-2 opacity-0 translate-y-6 animate-fade-up animation-delay-900 animation-fill-forwards"
+        class="c1 flex flex-col justify-center items-center gap-2 hack opacity-0 translate-y-6 animate-fade-up animation-delay-700 animation-fill-forwards"
       >
         <img
-          :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1752741735/Task-Management-Advantages-scaled_ibvig6.jpg'"
-          class="w-[15vw] h-[23vh]"
+          :src="'https://res.cloudinary.com/dwdekki8t/image/upload/v1759160604/4753716a-8f9a-4600-a9a7-ae3f4c640ea9.png'"
+          class="w-[15vw] h-[23vh] card"
         />
-        <h2
+        <h1
           class="text-2xl text-center font-bold bg-gradient-to-r from-pink-500 to-yellow-500 text-transparent bg-clip-text transition-all duration-500"
         >
-          Task Management
-        </h2>
+          Neuro Flow
+        </h1>
 
         <p class="text-white">
-          <span class="font-bold text-xl x">Techstack: </span>Vue js, vue router.
+          <span class="font-bold text-xl x">Techstack: </span>Nuxt.js, vue router, pinia, Tailwind
+          Css.
         </p>
         <button
           class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
         >
           <a
-            href="https://task-manager-lilac-omega.vercel.app/"
+            href="https://github.com/rajkumar2004s/Neuro-Flow"
             target="_blank"
             class="relative z-10 font-semibold"
           >
-            Check here
+            Git Repo
+          </a>
+          <span
+            class="absolute inset-0 bg-white opacity-10 group-hover:opacity-20 transition-opacity duration-300 ease-in-out"
+          ></span>
+          <span
+            class="absolute left-0 top-0 w-full h-full transform scale-0 group-hover:scale-100 bg-white opacity-10 transition-transform duration-500 ease-in-out"
+          ></span>
+        </button>
+      </div>
+
+      <div
+        class="c1 flex flex-col justify-center items-center gap-2 opacity-0 translate-y-6 animate-fade-up animation-delay-900 animation-fill-forwards"
+      >
+        <img
+          :src="' https://res.cloudinary.com/dwdekki8t/image/upload/v1759161190/64fe6db5-ec51-4420-869c-56feb84976ab.png'"
+          class="card w-[15vw] h-[23vh]"
+        />
+        <h2
+          class="text-2xl text-center font-bold bg-gradient-to-r from-pink-500 to-yellow-500 text-transparent bg-clip-text transition-all duration-500"
+        >
+          Skillify
+        </h2>
+
+        <p class="text-white">
+          <span class="font-bold text-xl x">Techstack: </span>Nuxt js, vue router.
+        </p>
+        <button
+          class="relative overflow-hidden px-6 py-3 rounded-md group border border-white bg-gradient-to-r from-blue-black to-[#1c222e] text-white transition-all duration-300 ease-in-out"
+        >
+          <a
+            href="https://github.com/rajkumar2004s/Learning-Platform"
+            target="_blank"
+            class="relative z-10 font-semibold"
+          >
+            Git Repo
           </a>
           <span
             class="absolute inset-0 bg-white opacity-10 group-hover:opacity-20 transition-opacity duration-300 ease-in-out"
