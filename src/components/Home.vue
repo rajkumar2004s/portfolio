@@ -1,8 +1,8 @@
 <template>
   <div class="bg-[#111112] flex items-center h-[90vh]">
     <img
-      src="https://res.cloudinary.com/dwdekki8t/image/upload/v1752602367/IMG_20250612_114213_ga01fs.jpg"
-      class="h-full object-cover"
+      src="https://res.cloudinary.com/dwdekki8t/image/upload/v1763109573/IMG-20251104-WA0084_taj1pz.jpg"
+      class="h-full w-[80%] object-cover"
       alt="Profile"
     />
     <div class="flex flex-col gap-4 justify-center items-center w-full font-poppins font-bold">
